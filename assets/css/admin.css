@@ -1,0 +1,359 @@
+.wpsmstowoo-error-notice {
+    background-color: #ffd5d5;
+    padding: 7px 7px;
+    display: inline-block;
+    border: 1px solid #ffb7b7;
+    border-radius: 2px;
+    color: #e02222;
+}
+
+.wpsmstowoo-time {
+    clear: both;
+    color: #a4a2a2;
+    display: block;
+    font-size: 10px;
+}
+
+.wpsmstowoo-color-green {
+    color: #27bb00;
+}
+
+.wpsmstowoo-color-red {
+    color: #f10000;
+}
+
+.wpsmstowoo-button-group .dashicons {
+    vertical-align: text-top;
+}
+
+#wpsmstowoo-select-subscriber-group {
+    display: none;
+}
+
+#wpsmstowoo-custom-text {
+    display: none;
+}
+
+#wpsmstowoo-custom-text textarea {
+    font-size: 12px;
+    width: 100%;
+    height: 114px;
+}
+
+#wpsmstowoo-custom-text p.description.data, #wpsmstowoo-custom-text code {
+    font-size: 11px !important;
+}
+
+.wpsmstowoo-plugin-meta-link span {
+    font-size: 14px;
+    vertical-align: sub;
+}
+
+.wpsmstowoo-plugin-meta-link.sms-for-woocommerce-pro {
+    color: green;
+    font-weight: bold;
+}
+
+.wpsmstowoo-has-credit {
+    color: #3b9d00;
+}
+
+.wpsmstowoo-no-credit {
+    color: #c20000;
+}
+
+.wpsmstowoo-premium-tab {
+    color: #F1F1F1;
+    background: #21A8D2;
+}
+
+.wpsmstowoo-tab-group {
+    border: 1px solid #d8d8d8;
+    display: block;
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 18px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.wpsmstowoo-logo-group {
+ background-color: #999999;
+ color: #FFF;
+ border-radius: 3px;
+}
+
+.wpsmstowoo-tab {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 1px;
+    width: 190px;
+    float: left;
+}
+
+.wpsmstowoo-tab li {
+    margin: 0;
+}
+
+.wpsmstowoo-tab li a:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.wpsmstowoo-tab #wpsmstowoo-logo {
+    text-align: center;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.wpsmstowoo-tab #wpsmstowoo-logo img {
+    width: 100%;
+}
+
+.wpsmstowoo-tab li a {
+    display: block;
+    text-decoration: none;
+    padding: 13px 14px;
+    font-weight: bold;
+    margin: 0 -1px 0px 0;
+}
+
+.wpsmstowoo-tab li .active {
+    background-color: #f4f6ff;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #f4f6ff;
+}
+
+.wpsmstowoo-tab-content {
+    background-color: #f4f6ff;
+    display: grid;
+    padding: 6px 33px;
+    border-left: 1px solid #d8d8d8;
+    min-height: 680px;
+}
+
+.rtl .wpsmstowoo-tab {
+    float: right;
+}
+
+.rtl .wpsmstowoo-tab-content {
+    border-left: 0px none;
+    border-right: 1px solid #d8d8d8;
+}
+
+.rtl .wpsmstowoo-tab li a {
+    margin: 0 0 0 -1px;
+}
+
+.rtl .wpsmstowoo-tab li .active {
+}
+
+/* Privacy Page */
+.privacy_page input[type=tel] {
+    margin-top: 15px;
+    height: 35px;
+    min-width: 250px;
+}
+
+.privacy_page #universal-message-container {
+    padding: 2px 0px 17px 0px;
+}
+
+.privacy_page .text-lead {
+    line-height: 26px;
+    text-align: justify;
+}
+
+.sms_to_woo_status_success {
+    background: #04ca15;
+    color: #ffffff;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.sms_to_woo_status_processing {
+    background: #FF7F50;
+    color: #ffffff;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+.sms_to_woo_status_fail {
+    background: #ca0404;
+    color: #ffffff;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.sms_to_woo_status_on-queue {
+    background: #045cca;
+    color: #ffffff;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.sms_to_woo_subscribers_label {
+    line-height: 19px;
+    left: 0px;
+    top: 6px;
+    width: 81px;
+    height: 19px;
+    display: inline-block;
+}
+
+.sms_to_woo_subscribers_input_text {
+    left: 81px;
+    top: 0px;
+    width: 379px;
+    height: 28px;
+}
+
+.wpsmstowoo-value.wpsmstowoo-numbers code {
+    font-family: inherit;
+    white-space: pre-line;
+}
+
+.wpsmstowoo-value.wpsmstowoo-number code {
+    font-family: inherit;
+    white-space: pre-line;
+}
+
+@media screen and (min-width: 1440px) {
+    .postbox-container {
+        max-width: 60%;
+    }
+
+    .rtl .postbox-container {
+        max-width: unset;
+    }
+}
+
+/** Welcome page **/
+.sms-for-woocommerce-welcome .wp-badge {
+    background-image: url('../images/welcome/logo.svg');
+    background-color: #f88e40;
+}
+
+.sms-for-woocommerce-welcome .nav-tab.donate {
+    background-color: #459605;
+    color: #ffffff;
+}
+
+.sms-for-woocommerce-welcome .tab-content {
+    display: none;
+}
+
+.sms-for-woocommerce-welcome .tab-content.current {
+    display: block;
+}
+
+.sms-for-woocommerce-welcome ul li {
+    margin: 0 31px;
+}
+
+.sms-for-woocommerce-welcome ul {
+    list-style-type: square;
+    line-height: 28px;
+    margin: 0 0 20px 0;
+}
+
+.sms-for-woocommerce-welcome img {
+    width: auto;
+}
+
+.sms-for-woocommerce-welcome .center-section {
+    padding: 41px 0 60px;
+    clear: both;
+    text-align: center;
+}
+
+.sms-for-woocommerce-welcome .normal-section .left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.sms-for-woocommerce-welcome .normal-section .right {
+    float: right;
+    width: 50%;
+}
+
+.sms-for-woocommerce-welcome .normal-section {
+    float: left;
+    width: 100%;
+    padding: 36px 0 44px;
+    border-bottom: 1px solid #dedede;
+}
+
+.sms-for-woocommerce-welcome .normal-section h2 {
+    text-align: left;
+}
+
+.sms-for-woocommerce-welcome .text-center {
+    text-align: center !important;
+}
+
+.sms-for-woocommerce-welcome .content-padding {
+    padding: 0 43px;
+}
+
+.sms-for-woocommerce-welcome .addons-item img {
+    width: 120px;
+    border-radius: 4px;
+}
+
+.sms-for-woocommerce-welcome .addons-item a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.sms-for-woocommerce-welcome .center-section.logo img {
+    width: 150px;
+}
+
+.sms-for-woocommerce-welcome .center-section.logo > a {
+    display: inline-block;
+}
+
+.sms-for-woocommerce-welcome .plugin-icon {
+    width: 128px;
+    height: 128px;
+}
+
+.sms-for-woocommerce-welcome .plugin-card h3 {
+    margin: 0 0 12px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.sms-for-woocommerce-welcome .plugin-card {
+    text-align: left;
+}
+
+.sms-for-woocommerce-welcome .wp-list-table.widefat {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.sms-for-woocommerce-welcome .widefat td .dashicons.dashicons-yes {
+    color: green;
+}
+
+.sms-for-woocommerce-welcome .widefat td .dashicons.dashicons-no-alt {
+    color: red;
+}
+
+.sms-for-woocommerce-welcome .widefat td, .widefat th {
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
+}
+
+.sms-for-woocommerce-welcome .widefat td:first-child {
+    text-align: left;
+}
+
+.sms-for-woocommerce-welcome .widefat .bold {
+    background: #f5f5f5;
+}

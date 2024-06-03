@@ -1,0 +1,47 @@
+Body.login
+{
+background-image:url("../image/login-page-bg.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+}
+
+
+.login form{
+box-shadow:none;
+padding:20px;
+width: 360px;
+}
+#login {
+background: #FFF;
+margin: 50px auto;
+padding: 40px 20px;
+width: 400px;
+}
+.login label {
+color: #555;
+font-size: 14px;
+}
+.login form .forgetmenot{
+float:none;
+}
+
+
+
+#login form p.submit{
+margin-top:15px;
+}
+.login.wp-core-ui .button-primary {
+background: #7B417A;
+border-color:#7B417A;
+box-shadow: 0 1px 0 #7B417A;
+color: #FFF;
+text-shadow: none;
+float: none;
+clear: both;
+display: block;
+width: 100%;
+padding: 7px;
+height: auto;
+font-size: 15px;
+}

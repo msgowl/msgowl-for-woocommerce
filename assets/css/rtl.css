@@ -1,0 +1,17 @@
+/** Welcome page **/
+.sms-for-woocommerce-welcome .normal-section .left {
+    float: right;
+    text-align: right;
+}
+
+.sms-for-woocommerce-welcome .normal-section h2 {
+    text-align: right;
+}
+
+.sms-for-woocommerce-welcome .normal-section .right {
+    float: left;
+}
+
+.sms-for-woocommerce-welcome .widefat td:first-child {
+    text-align: right;
+}
